@@ -1,0 +1,98 @@
+body {
+	background-color:#d3d3d3;
+	font-family:Arial;
+}
+header{
+	color:#808080;
+	height:26px;
+	margin-bottom:40px;
+}
+.content-box{
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 10px;
+	width: 600px;
+	background-color: white;
+	margin-left:auto;
+	margin-right:auto;
+	
+	
+}
+
+	
+ul{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	background-color:#808080;
+	
+}
+li{
+	float: left;
+	border-right: 1px solid white;
+}
+
+li:last-child{
+	border-right: none;
+}
+li a{
+	display:block;
+	color:white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover:not(.active) {
+	background-color:#A9A9A9;
+}
+
+.active { 
+    background-color:#000000;
+}
+
+.image{
+	width:250px;
+	padding-right:auto;
+	float: left;
+	border-style: double;
+	border-color: gray;
+	margin-left: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: white;
+}
+
+.profile{
+	width:200px;
+	border-style: double;
+	border-color: gray;
+	margin-left: 22px;
+	
+}
+.graduation{
+	width: 400px;
+	padding-right: 100px;
+	padding-left: 100px;
+	
+}
+.academic{
+	width: 400px;
+	padding-right: 100px;
+	padding-left: 50px;
+}
+.preschool{
+	width: 200px;
+}
+.kindergarten{
+	width: 200px;
+	padding-left: 100px;
+}
+.goal{
+	width: 400px;
+	padding-right: 100px;
+	padding-left: 100px;
+}
+	
+
